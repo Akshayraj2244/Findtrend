@@ -58,12 +58,12 @@ const NavBoxContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     display: flex;
-    width: 65%;
+    width: 55%;
     color: aliceblue;
 `;
 const NavBox =styled.div`
     display: flex;
-    width: 50%;
+    width: 41%;
     justify-content: space-between;
 `;
 const NavItem = styled.div`
@@ -76,11 +76,18 @@ const RightContainer = styled.div`
     
 `;
 const LoginButton = styled.span`
-margin-right: 8px;
+    margin-right:36px;
+    display: inline-block;
+    cursor: pointer;
 
 `;
 const RegisterButton = styled.button`
     border: none;
+    padding: 4px 8px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+
 
 `;
 
