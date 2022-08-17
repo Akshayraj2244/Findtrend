@@ -83,10 +83,11 @@ const LoginButton = styled.span`
 `;
 const RegisterButton = styled.button`
     border: none;
-    padding: 4px 8px;
+    padding: 9px 27px;
     border-radius: 20px;
     background-color: aliceblue;
     cursor: pointer;
+    font-size: 15px;
 
 
 `;
