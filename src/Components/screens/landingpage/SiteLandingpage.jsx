@@ -111,7 +111,7 @@ const ImageContainer = styled.div`
     width: 17%;
     margin-top: 80px;
     padding: 25px;
-    border-radius: 10px;
+    border-radius: 10   px;
 `;
 
 

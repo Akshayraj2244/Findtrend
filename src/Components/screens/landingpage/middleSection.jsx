@@ -58,13 +58,13 @@ const BgContent = styled.div`
   padding-top: 20px;
 `;
 const MainwhiteContainer = styled.div`
-  width: 25%;
+  width: 24%;
   margin: 0 auto;
   padding-top: 100px;
 `;
 const WhiteContainer = styled.div`
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 9px;
   padding: 20px 37px;
 `;
 const BlackContainer = styled.div`

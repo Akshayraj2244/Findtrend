@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../../Assets/images/logo-colour.svg'
+import logo from '../../Assets/images/findtrend.svg'
 
 function Header() {
   return (
@@ -47,7 +47,7 @@ const MainContainer = styled.div`
     align-items: center;
 `;
 const LogoContainer = styled.div`
-    width: 8%;
+    width: 10%;
 
     img{
         width: 100%;

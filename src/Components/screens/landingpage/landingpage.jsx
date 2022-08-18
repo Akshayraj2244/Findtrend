@@ -5,6 +5,7 @@ import Spotlight from "./Spotlight";
 import MiddleSection from "./middleSection";
 import ParagraphPage from "./ParagraphPage"
 import SiteLandingpage from './SiteLandingpage'
+import Platformpage from './Platformpage'
 
 export default function () {
   return (
@@ -16,8 +17,7 @@ export default function () {
     <MiddleSection />
     <ParagraphPage />
     <SiteLandingpage />
-     
-
+    <Platformpage />
     </>
   );
 }
