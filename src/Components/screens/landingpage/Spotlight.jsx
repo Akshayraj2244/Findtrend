@@ -60,6 +60,7 @@ export default Spotlight;
 
 const SpotlightContainer = styled.div`
   padding-top: 90px;
+  margin-bottom: 2px;
 `;
 const SpotlightWrapper = styled.div``;
 const MainContent = styled.h1`
@@ -94,7 +95,7 @@ const IconContainer = styled.div`
   justify-content: center;
   width: 100%;
   position: relative;
-  margin-top: 100px;
+  margin-top: 39px;
 `;
 const Cryptocontent = styled.div`
   display: flex;
