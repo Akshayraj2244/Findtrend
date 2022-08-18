@@ -72,7 +72,6 @@ function SiteLandingpage() {
                 <ImageContainer>
                     <img src={val.image} alt="logo" />
                 </ImageContainer>
-
                 ))}
             </Gallery>
           </GalleryContainer>
@@ -85,14 +84,15 @@ function SiteLandingpage() {
 export default SiteLandingpage;
 
 const SitelandingContainer = styled.div`
-  padding-top: 45px;
+  /* padding-top: 45px; */
+  padding: 80px 0px;
 `;
 const SitelandingWrapper = styled.div`
     width: 65%;
     margin: 0 auto  ;
 `;
 const FrendTrendContent = styled.h1`
-  font-size: 40px;
+  font-size: 45px;
   color: black;
   text-align: center;
 `;
@@ -102,16 +102,24 @@ const Gallery = styled.div`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 30px;
-
-    
+    & :nth-child(1) {
+        margin-top: 0;
+    }
+    & :nth-child(2) {
+        margin-top: 0;
+    }
+    & :nth-child(3) {
+        margin-top: 0;
+    }
+    & :nth-child(4) {
+        margin-top: 0;
+    }
 `;
 const ImageContainer = styled.div`
     background-color: #f1f1f1;
-    width: 17%;
     margin-top: 80px;
-    padding: 25px;
-    border-radius: 10   px;
+    padding: 35px;
+    border-radius: 10px;
 `;
 
 

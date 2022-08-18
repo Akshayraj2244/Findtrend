@@ -12,7 +12,6 @@ function middleSection() {
             <MainwhiteContainer>
               <WhiteContainer>
                 <BlackContainer>
-                  <MainContent>
                     <Logocontainer>
                       <ImageContainer>
                         <img src={findtrend} alt="trend" />
@@ -26,7 +25,6 @@ function middleSection() {
                         </ImageContent>
                       </MainImage>
                     </Logocontainer>
-                  </MainContent>
                 </BlackContainer>
               </WhiteContainer>
             </MainwhiteContainer>
@@ -53,7 +51,7 @@ const TabContent = styled.h1`
   font-size: 50px;
 `;
 const BgContent = styled.div`
-  background-color: green;
+  background-color: #A6FF34;
   height: 57vh;
   padding-top: 20px;
 `;
@@ -70,7 +68,6 @@ const WhiteContainer = styled.div`
 const BlackContainer = styled.div`
   background-color: black;
 `;
-const MainContent = styled.div``;
 const Logocontainer = styled.div`
   display: flex;
   justify-content: center;
@@ -83,7 +80,7 @@ const ImageContainer = styled.div`
 `;
 const MainText = styled.div``;
 const TextContent = styled.h1`
-  color: aliceblue;
+  color: #60625D;
 `;
 const MainImage = styled.div``;
 const ImageContent = styled.div`
@@ -95,4 +92,5 @@ const ImageContent = styled.div`
 const ParaContent = styled.p`
   text-align: center;
   margin-top: 60px;
+  color: #60625D;
 `;

@@ -48,6 +48,7 @@ const MainContainer = styled.div`
 `;
 const LogoContainer = styled.div`
     width: 10%;
+    cursor: pointer;
 
     img{
         width: 100%;
@@ -65,6 +66,7 @@ const NavBox =styled.div`
     display: flex;
     width: 41%;
     justify-content: space-between;
+    font-size: 18px;
 `;
 const NavItem = styled.div`
     

@@ -70,10 +70,11 @@ const MainContent = styled.h1`
   line-height: 1.4em;
 `;
 const TextContent = styled.p`
-  color: aliceblue;
+  color: #60625D;
   text-align: center;
   line-height: 2em;
-  font-size: 12px;
+  font-size: 14px;
+  margin-bottom: 50px;
 `;
 const ButtonContent = styled.div`
   display: flex;
@@ -82,12 +83,14 @@ const ButtonContent = styled.div`
 
 const GetButton = styled.button`
   cursor: pointer;
-  background-color: green;
+  background-color: #A6FF34;
   color: aliceblue;
-  padding: 17px 49px;
+  padding: 17px 35px;
   border: none;
-  border-radius: 20px;
+  border-radius: 34px;
   font-size: 20px;
+  color: black;
+  font-weight: bold;
 `;
 const IconContainer = styled.div`
   padding-bottom :250px;
