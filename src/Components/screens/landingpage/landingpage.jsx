@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Header from "../../includes/landingpage/Header";
 import Spotlight from "./Spotlight";
 import MiddleSection from "./middleSection";
+import ParagraphPage from "./ParagraphPage"
+import SiteLandingpage from './SiteLandingpage'
 
 export default function () {
   return (
@@ -12,6 +14,8 @@ export default function () {
     <Spotlight />
     </Container>
     <MiddleSection />
+    <ParagraphPage />
+    <SiteLandingpage />
      
 
     </>
