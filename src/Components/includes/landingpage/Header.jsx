@@ -1,35 +1,34 @@
-import React from 'react'
-import styled from 'styled-components'
-import logo from '../../Assets/images/findtrend.svg'
+import React from "react";
+import styled from "styled-components";
+import logo from "../../Assets/images/findtrend.svg";
 
 function Header() {
-  return (
-    <>
-        <HeaderContainer>
-             <HeaderWrapper>
-                <MainContainer>
-                <LogoContainer>
-                    <img src= {logo} alt="findtrend" />
-                </LogoContainer>
-                <NavBoxContainer>
-                <NavBox>
-                        <NavItem>About</NavItem>
-                        <NavItem>How  it work</NavItem>
-                        <NavItem>Pricing</NavItem>
-                        <NavItem>Solution</NavItem>
-                        <NavItem>Features</NavItem>
-                </NavBox>
-                <RightContainer>
-                <LoginButton>Login</LoginButton>
-                <RegisterButton>Register</RegisterButton>
-                </RightContainer>
-                </NavBoxContainer>
-                </MainContainer>
-            </HeaderWrapper>
-        </HeaderContainer>
-         
-    </>
-  )
+    return (
+        <>
+            <HeaderContainer>
+                <HeaderWrapper>
+                    <MainContainer>
+                        <LogoContainer>
+                            <img src={logo} alt="findtrend" />
+                        </LogoContainer>
+                        <NavBoxContainer>
+                            <NavBox>
+                                <NavItem>About</NavItem>
+                                <NavItem>How it work</NavItem>
+                                <NavItem>Pricing</NavItem>
+                                <NavItem>Solution</NavItem>
+                                <NavItem>Features</NavItem>
+                            </NavBox>
+                            <RightContainer>
+                                <LoginButton>Login</LoginButton>
+                                <RegisterButton>Register</RegisterButton>
+                            </RightContainer>
+                        </NavBoxContainer>
+                    </MainContainer>
+                </HeaderWrapper>
+            </HeaderContainer>
+        </>
+    );
 }
 export default Header;
 
@@ -50,7 +49,7 @@ const LogoContainer = styled.div`
     width: 10%;
     cursor: pointer;
 
-    img{
+    img {
         width: 100%;
         display: block;
     }
@@ -62,35 +61,29 @@ const NavBoxContainer = styled.div`
     width: 55%;
     color: aliceblue;
 `;
-const NavBox =styled.div`
+const NavBox = styled.div`
     display: flex;
     width: 41%;
     justify-content: space-between;
     font-size: 18px;
 `;
-const NavItem = styled.div`
-    
-`;
+const NavItem = styled.div``;
 const RightContainer = styled.div`
     display: flex;
     justify-content: space-around;
     color: aliceblue;
-    
+    align-items: center;
 `;
 const LoginButton = styled.span`
-    margin-right:36px;
+    margin-right: 36px;
     display: inline-block;
     cursor: pointer;
-
 `;
 const RegisterButton = styled.button`
     border: none;
-    padding: 9px 27px;
+    padding: 13px 27px;
     border-radius: 20px;
     background-color: aliceblue;
     cursor: pointer;
     font-size: 15px;
-
-
 `;
-
