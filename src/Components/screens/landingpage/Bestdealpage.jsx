@@ -23,48 +23,27 @@ function Bestdealpage() {
                                 <PersonalContent>Personal</PersonalContent>
                                 <TextContent>Lorem ipsum dolor sit</TextContent>
                                 <PriceList>$8</PriceList>
-                                <MonthPrice>/Year</MonthPrice>
+                                <MonthPrice>/Month</MonthPrice>
                                 <BottomContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
-                                        Lorem ipsum dolor sit
+                                        Lorem ipsum dolor sit amet 
                                     </ImageContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
-                                        Lorem ipsum dolor sit
+                                        LLorem ipsum dolor sit amet 
                                     </ImageContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
-                                        Lorem ipsum dolor sit
+                                        Lorem ipsum dolor sit amet  
                                     </ImageContent>
                                 </BottomContent>
                             </Personalmonthcontent>
-                            <ForButton>For Free</ForButton>
+                            <ForButton>
+                                <Fbutton>For Free</Fbutton>
+                            </ForButton>
                         </LeftBox>
                         <MiddleBox>
-                            <Personalmonthcontent>
-                                <PersonalContent>Personal</PersonalContent>
-                                <TextContent>Lorem ipsum dolor sit</TextContent>
-                                <PriceList>$8</PriceList>
-                                <MonthPrice>/Month </MonthPrice>
-                                <BottomContent>
-                                    <ImageContent>
-                                        <img src={tick} alt="icon" />
-                                        Lorem ipsum dolor sit
-                                    </ImageContent>
-                                    <ImageContent>
-                                        <img src={tick} alt="icon" />
-                                        Lorem ipsum dolor sit
-                                    </ImageContent>
-                                    <ImageContent>
-                                        <img src={tick} alt="icon" />
-                                        Lorem ipsum dolor sit
-                                    </ImageContent>
-                                </BottomContent>
-                            </Personalmonthcontent>
-                            <FreeButton>ForFree</FreeButton>
-                        </MiddleBox>
-                        <RightBox>
                             <Personalmonthcontent>
                                 <PersonalContent>Personal</PersonalContent>
                                 <TextContent>Lorem ipsum dolor sit</TextContent>
@@ -73,19 +52,44 @@ function Bestdealpage() {
                                 <BottomContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
-                                        Lorem ipsum dolor sit
+                                        Lorem ipsum dolor sit amet
                                     </ImageContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
-                                        Lorem ipsum dolor sit
+                                        Lorem ipsum dolor sit amet
                                     </ImageContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
-                                        Lorem ipsum dolor sit
+                                        Lorem ipsum dolor sit amet                                    </ImageContent>
+                                </BottomContent>
+                            </Personalmonthcontent>
+                            <FreeButton>
+                                <Rbutton>ForFree</Rbutton>
+                            </FreeButton>
+                        </MiddleBox>
+                        <RightBox>
+                            <Personalmonthcontent>
+                                <PersonalContent>Personal</PersonalContent>
+                                <TextContent>Lorem ipsum dolor sit</TextContent>
+                                <PriceList>$8</PriceList>
+                                <MonthPrice>/Month </MonthPrice>
+                                <BottomContent>
+                                    <ImageContent>
+                                        <img src={tick} alt="icon" />
+                                        Lorem ipsum dolor sit amet 
+                                    </ImageContent>
+                                    <ImageContent>
+                                        <img src={tick} alt="icon" />
+                                        Lorem ipsum dolor sit amet                                     </ImageContent>
+                                    <ImageContent>
+                                        <img src={tick} alt="icon" />
+                                        Lorem ipsum dolor sit amet 
                                     </ImageContent>
                                 </BottomContent>
                             </Personalmonthcontent>
-                            <GreenButton>ForFree</GreenButton>
+                            <GreenButton>
+                                <Button>ForFree</Button>
+                            </GreenButton>
                         </RightBox>
                     </BottomContainer>
                 </BestdealWrapper>
@@ -127,6 +131,7 @@ const CircleContent = styled.div`
     padding: 14px;
     width: 31px;
     border-radius: 32px;
+    cursor: pointer;
 `;
 const MonthContent = styled.span`
     color: #fff;
@@ -140,7 +145,7 @@ const BottomContainer = styled.div`
 const LeftBox = styled.div`
     background-color: #fff;
     padding: 15px;
-    width: 316px;
+    width: 321px;
     border-radius: 12px;
 `;
 const Personalmonthcontent = styled.div`
@@ -152,11 +157,11 @@ const PersonalContent = styled.h4`
     margin-bottom: 3px;
 `;
 const TextContent = styled.p`
-    color: black;
+    color: #60625d;
     margin-bottom: 50px;
 `;
 const PriceList = styled.span`
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
 `;
 const MonthPrice = styled.span`
@@ -164,6 +169,7 @@ const MonthPrice = styled.span`
 `;
 const BottomContent = styled.div`
     margin-top: 25px;
+    color: black;
 `;
 const ImageContent = styled.div`
     display: flex;
@@ -178,35 +184,49 @@ const ImageContent = styled.div`
 `;
 const ForButton = styled.div`
     display: flex;
-    justify-content: center;
-    padding: 20px 20px;
+    justify-content: center; ;
+`;
+const Fbutton = styled.button`
+    padding: 12px 81px;
     background-color: #a6ff34;
     border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
 `;
 const MiddleBox = styled.div`
-    background-color: #fff;
+    background-color: #a6ff34;
     padding: 15px;
-    width: 379px;
+    width: 321px;
     border-radius: 12px;
 `;
 const FreeButton = styled.div`
     display: flex;
     justify-content: center;
-    padding: 20px 20px;
+`;
+const Rbutton = styled.button`
+    padding: 12px 81px;
     background-color: black;
     border-radius: 20px;
-    color: aliceblue;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
 `;
 const RightBox = styled.div`
     background-color: #fff;
     padding: 15px;
-    width: 379px;
+    width: 321px;
     border-radius: 12px;
 `;
-const GreenButton = styled.button`
+const GreenButton = styled.div`
     display: flex;
     justify-content: center;
-    padding: 20px 20px;
+`;
+const Button = styled.button`
+    padding: 12px 81px;
     background-color: #a6ff34;
     border-radius: 20px;
+    border: none;
+    cursor: pointer;
 `;

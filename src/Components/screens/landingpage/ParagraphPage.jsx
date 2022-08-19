@@ -12,7 +12,6 @@ function ParagraphPage() {
             <br />
             memory load,
             <GreyText>
-              {" "}
               an application that can <br /> fullfill your daily browsing needs.
             </GreyText>
           </FindContent>
