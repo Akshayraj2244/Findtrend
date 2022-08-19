@@ -6,7 +6,9 @@ import ParagraphPage from "./ParagraphPage";
 import SiteLandingpage from "./SiteLandingpage";
 import Platformpage from "./Platformpage";
 import MiddleSection from "./MiddleSection";
-import Bestdealpage from './Bestdealpage' 
+import Bestdealpage from "./Bestdealpage";
+import Emailpage from "./Emailpage"
+import Footer from "../../includes/landingpage/Footer"
 import bg from "../../Assets/images/spotlight.jpg";
 
 export default function () {
@@ -21,10 +23,12 @@ export default function () {
             <SiteLandingpage />
             <Platformpage />
             <Bestdealpage />
+            <Emailpage />
+            <Footer />
         </>
     );
 }
 const Container = styled.div`
-    /* background-color: black; */
+    background-color: black;
     background: url(${bg});
 `;

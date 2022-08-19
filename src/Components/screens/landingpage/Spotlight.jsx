@@ -78,8 +78,7 @@ function Spotlight() {
 export default Spotlight;
 
 const SpotlightContainer = styled.div`
-    padding: 129px 0 117px;
-    margin-bottom: 2px;
+    padding: 129px 0 80px;
 `;
 const SpotlightWrapper = styled.div``;
 const MainContent = styled.h1`

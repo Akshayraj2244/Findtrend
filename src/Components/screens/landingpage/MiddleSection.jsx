@@ -53,6 +53,7 @@ export default MiddleSection;
 
 const MiddlesectionContainer = styled.div`
     margin-bottom: 30px;
+    border-top: 3px solid #fff;
 `;
 const MiddlesectionWrapper = styled.div``;
 const TabContent = styled.h1`

@@ -23,7 +23,7 @@ function Bestdealpage() {
                                 <PersonalContent>Personal</PersonalContent>
                                 <TextContent>Lorem ipsum dolor sit</TextContent>
                                 <PriceList>$8</PriceList>
-                                <MonthPrice>/Month</MonthPrice>
+                                <MonthPrice>/ Month</MonthPrice>
                                 <BottomContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
@@ -31,7 +31,7 @@ function Bestdealpage() {
                                     </ImageContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
-                                        LLorem ipsum dolor sit amet 
+                                        Lorem ipsum dolor sit amet 
                                     </ImageContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
@@ -47,8 +47,8 @@ function Bestdealpage() {
                             <Personalmonthcontent>
                                 <PersonalContent>Personal</PersonalContent>
                                 <TextContent>Lorem ipsum dolor sit</TextContent>
-                                <PriceList>$8</PriceList>
-                                <MonthPrice>/Year </MonthPrice>
+                                <PriceList>$20</PriceList>
+                                <MonthPrice>/ Year </MonthPrice>
                                 <BottomContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
@@ -72,7 +72,7 @@ function Bestdealpage() {
                                 <PersonalContent>Personal</PersonalContent>
                                 <TextContent>Lorem ipsum dolor sit</TextContent>
                                 <PriceList>$8</PriceList>
-                                <MonthPrice>/Month </MonthPrice>
+                                <MonthPrice>/ Month </MonthPrice>
                                 <BottomContent>
                                     <ImageContent>
                                         <img src={tick} alt="icon" />
@@ -102,13 +102,20 @@ export default Bestdealpage;
 const BestdealContainer = styled.div`
     background-color: black;
     padding-top: 30px;
+    border-bottom: 2px solid #fff;
 `;
-const BestdealWrapper = styled.div``;
+const BestdealWrapper = styled.div`
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
 const TopContainer = styled.div``;
 const BestdealContent = styled.h2`
     text-align: center;
     color: #fff;
     font-size: 40px;
+ 
 `;
 const MiddleSection = styled.div`
     display: flex;
@@ -140,12 +147,15 @@ const MonthContent = styled.span`
 const BottomContainer = styled.div`
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 58px;  
+    width: 52%;
+    padding-bottom: 80px    ;
+ 
 `;
 const LeftBox = styled.div`
     background-color: #fff;
     padding: 15px;
-    width: 321px;
+    width: 300px;
     border-radius: 12px;
 `;
 const Personalmonthcontent = styled.div`
@@ -153,7 +163,7 @@ const Personalmonthcontent = styled.div`
     height: 400px;
 `;
 const PersonalContent = styled.h4`
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 3px;
 `;
 const TextContent = styled.p`
@@ -197,7 +207,7 @@ const Fbutton = styled.button`
 const MiddleBox = styled.div`
     background-color: #a6ff34;
     padding: 15px;
-    width: 321px;
+    width: 300px;
     border-radius: 12px;
 `;
 const FreeButton = styled.div`
@@ -216,7 +226,7 @@ const Rbutton = styled.button`
 const RightBox = styled.div`
     background-color: #fff;
     padding: 15px;
-    width: 321px;
+    width: 300px;
     border-radius: 12px;
 `;
 const GreenButton = styled.div`
