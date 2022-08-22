@@ -7,8 +7,8 @@ import SiteLandingpage from "./SiteLandingpage";
 import Platformpage from "./Platformpage";
 import MiddleSection from "./MiddleSection";
 import Bestdealpage from "./Bestdealpage";
-import Emailpage from "./Emailpage"
-import Footer from "../../includes/landingpage/Footer"
+import Emailpage from "./Emailpage";
+import Footer from "../../includes/landingpage/Footer";
 import bg from "../../Assets/images/spotlight.jpg";
 
 export default function () {
@@ -31,4 +31,5 @@ export default function () {
 const Container = styled.div`
     background-color: black;
     background: url(${bg});
+    background-position: center;
 `;

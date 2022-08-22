@@ -13,38 +13,39 @@ function SiteLandingpage() {
         {
             image: google,
             link: "https://www.google.com/",
+            
         },
         {
             image: porsche,
-            link: "https://www.google.com/",
+            link: "https://www.porsche.com/international/models/911/911-models/carrera/",
         },
         {
             image: algolia,
-            link: "https://www.google.com/",
+            link: "https://www.algolia.com/",
         },
         {
             image: volvo,
-            link: "https://www.google.com/",
+            link: "https://www.volvo.com/en/",
         },
         {
             image: algolia,
-            link: "https://www.google.com/",
+            link: "https://www.algolia.com/",
         },
         {
             image: volvo,
-            link: "https://www.google.com/",
+            link: "https://www.volvo.com/en/",
         },
         {
             image: grab,
-            link: "https://www.google.com/",
+            link: "https://www.grab.com/sg/",
         },
         {
             image: porsche,
-            link: "https://www.google.com/",
+            link: "hhttps://www.porsche.com/international/models/911/911-models/carrera/",
         },
         {
             image: volvo,
-            link: "https://www.google.com/",
+            link: "https://www.volvo.com/en/",
         },
         {
             image: upwork,
@@ -56,11 +57,11 @@ function SiteLandingpage() {
         },
         {
             image: volvo,
-            link: "https://www.google.com/",
+            link: "https://www.volvo.com/en/",
         },
         {
             image: porsche,
-            link: "https://www.google.com/",
+            link: "hhttps://www.porsche.com/international/models/911/911-models/carrera/",
         },
         {
             image: google,
@@ -68,11 +69,11 @@ function SiteLandingpage() {
         },
         {
             image: grab,
-            link: "https://www.google.com/",
+            link: "https://www.grab.com/sg/",
         },
         {
             image: algolia,
-            link: "https://www.google.com/",
+            link: "https://www.algolia.com/",
         },
     ];
     return (
@@ -80,7 +81,7 @@ function SiteLandingpage() {
             <SitelandingContainer>
                 <SitelandingWrapper>
                     <FrendTrendContent>
-                        FindTRend make +1000 Startup grow
+                        FindTrend make +1000 Startup grow
                     </FrendTrendContent>
                     <GalleryContainer>
                         <Gallery>
@@ -100,7 +101,7 @@ function SiteLandingpage() {
 export default SiteLandingpage;
 
 const SitelandingContainer = styled.div`
-    margin-bottom: 49px;
+    margin-bottom: 89px;
 `;
 const SitelandingWrapper = styled.div`
     width: 65%;
@@ -110,34 +111,52 @@ const FrendTrendContent = styled.h1`
     font-size: 45px;
     color: black;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 58px;
+    @media all and (max-width: 980px) {
+        font-size: 35px;
+    }
+    @media all and (max-width: 980px) {
+        font-size: 29px;
+    }
+    @media all and (max-width: 768px) {
+        font-size: 20px;
+    }
+    @media all and (max-width: 640px) {
+     font-size: 15px;
+    }
+
 `;
 const GalleryContainer = styled.div``;
 const Gallery = styled.div`
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    & :nth-child(1) {
-        margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 80px;
+    @media all and (max-width: 1440px) {
+        grid-gap: 28px;
     }
-    & :nth-child(2) {
-        margin-top: 0;
-    }
-    & :nth-child(3) {
-        margin-top: 0;
-    }
-    & :nth-child(4) {
-        margin-top: 0;
-    }
+ 
 `;
+
 const ImageContainer = styled.a`
     background-color: #f1f1f1;
-    margin-top: 80px;
-    padding: 35px;
+    padding: 25px;
     border-radius: 10px;
+    width: 95%;
+    img{
+        display: block;
+        width: 100%;
+    }
     &:hover {
         transform: scale(1.2);
         background: #f0f0;
         transition: all 0.4s ease;
+    }
+    @media all and (max-width: 768px) {
+       width: 100%;  
+       padding: 15px;
+    }
+    @media all and (max-width: 640px) {
+      padding: 9px;
+      width: 100%;
     }
 `;

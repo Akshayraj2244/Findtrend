@@ -15,7 +15,7 @@ function Platformpage() {
     const arr = [
         {
             image: facebook,
-            link : "https://www.google.com/",
+            link: "https://www.google.com/",
         },
         {
             image: twitter,
@@ -50,12 +50,15 @@ function Platformpage() {
                         <LogoContainer>
                             <LogoContent>
                                 {arr.map((val) => (
-                                    <ImageContent href={val.link} target="_blank">
+                                    <ImageContent
+                                        href={val.link}
+                                        target="_blank"
+                                    >
                                         <img src={val.image} alt="icon" />
                                     </ImageContent>
                                 ))}
                             </LogoContent>
-                            <LinkedinContainer>I
+                            <LinkedinContainer>
                                 <EilonImage>
                                     <img src={Elon} alt="Linked" />
                                 </EilonImage>
@@ -85,16 +88,28 @@ export default Platformpage;
 
 const PlaformContainer = styled.div`
     background-color: #f1f1f1;
-    height: 210vh;
     padding-top: 50px;
+    padding-bottom: 88px;
 `;
 const PlatformWrapper = styled.div`
     width: 50%;
     margin: 0 auto;
+    @media all and (max-width: 1440px) {
+        width: 65%;
+    }
+    @media all and (max-width: 980px) {
+       width: 78%;
+    }
+    @media all and (max-width: 768px) {
+        width: 88%;
+    }
 `;
 const PlatformContent = styled.h1`
     font-size: 50px;
     text-align: center;
+    @media all and (max-width: 1440px) {
+        font-size: 30px;
+    }
 `;
 const BgContainer = styled.div``;
 const LogoContainer = styled.div``;
@@ -116,6 +131,19 @@ const ImageContent = styled.div`
     &:hover {
         background-color: #a6ff34;
         transition: 0.6s ease all;
+    }
+    @media all and (max-width: 1440px) {
+       margin-right: 15px;
+    }
+    @media all and (max-width: 980px) {
+        width: 90px;
+    }
+    @media all and (max-width: 768px) {
+        width: 60px;
+    }
+    @media all and (max-width: 640px) {
+      width: 40%;
+      padding: 10px;
     }
 `;
 const LinkedinContainer = styled.div`
@@ -156,4 +184,8 @@ const Button = styled.button`
     font-size: 15px;
     cursor: pointer;
     font-weight: bold;
+    @media all and (max-width: 640px) {
+      padding: 10px 20px;
+      font-size: 10px;
+    }
 `;
