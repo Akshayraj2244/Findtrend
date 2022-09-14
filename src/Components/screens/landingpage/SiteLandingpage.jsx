@@ -130,7 +130,7 @@ const GalleryContainer = styled.div``;
 const Gallery = styled.div`
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 80px;
+    grid-gap: 50px;
     @media all and (max-width: 1440px) {
         grid-gap: 28px;
     }

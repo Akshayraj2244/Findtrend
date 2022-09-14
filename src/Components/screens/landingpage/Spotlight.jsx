@@ -120,7 +120,7 @@ const MainContent = styled.h1`
         font-size: 43px;
     }
     @media all and (max-width: 768px) {
-       font-size: 36px;
+        font-size: 36px;
     }
 `;
 const TextContent = styled.p`
@@ -133,7 +133,7 @@ const TextContent = styled.p`
         font-size: 10px;
     }
     @media all and (max-width: 768px) {
-       font-size: 8px;
+        font-size: 8px;
     }
 `;
 const ButtonContent = styled.div`
@@ -170,8 +170,8 @@ const GetButton = styled.button`
         font-size: 14px;
     }
     @media all and (max-width: 768px) {
-       padding: 13px 10px;
-       font-size: 11px;
+        padding: 13px 10px;
+        font-size: 11px;
     }
 `;
 const IconContainer = styled.div`
@@ -204,7 +204,6 @@ const Cryptocontent = styled.div`
         padding: 8px 8px;
         transform: rotate(0deg);
     }
-
 `;
 const TwitterImage = styled.div`
     width: 28px;
@@ -220,7 +219,7 @@ const PunkTest = styled.p`
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     @media all and (max-width: 768px) {
-       font-size: 14px;
+        font-size: 14px;
     }
 `;
 const ImageContent = styled.div`
@@ -270,7 +269,7 @@ const PopularTest = styled.p`
     margin-left: 13px;
 
     @media all and (max-width: 768px) {
-       font-size: 14px;
+        font-size: 14px;
     }
 `;
 const ProductContent = styled.div`
@@ -294,7 +293,7 @@ const ProductContent = styled.div`
         padding: 8px 2px;
     }
     @media all and (max-width: 768px) {
-       right: 21%;
+        right: 21%;
     }
 `;
 const ProductImage = styled.div`
@@ -311,7 +310,7 @@ const DesignContent = styled.p`
     -webkit-background-clip: text;
     margin-left: 13px;
     @media all and (max-width: 768px) {
-       font-size: 14px;
+        font-size: 14px;
     }
 `;
 const ElonContent = styled.div`
@@ -332,12 +331,12 @@ const ElonContent = styled.div`
     }
     @media all and (max-width: 768px) {
         top: 55%;
-        right: 32%;;
+        right: 32%;
         padding: 8px 2px;
         transform: rotate(0deg);
-    }   
+    }
     @media all and (max-width: 768px) {
-       right: 21%;
+        right: 21%;
     }
 `;
 const DribbleImage = styled.div`
@@ -354,7 +353,7 @@ const ElonText = styled.p`
     -webkit-background-clip: text;
     margin-left: 13px;
     @media all and (max-width: 768px) {
-       font-size: 14px;
+        font-size: 14px;
     }
 `;
 const GradientBox = styled.div`
